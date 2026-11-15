@@ -212,7 +212,7 @@ Processors run before transports. They can change a record, or drop it by return
 ```ts
 import { Processors } from '@olog-js/core'
 
-createLogger({
+CreateLogger({
   processors: [
     // masks keys at any depth + "password=..." inside messages
     Processors.redact([
