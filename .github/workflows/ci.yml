@@ -3,9 +3,8 @@ name: CI
 on:
   pull_request:
   push:
-    branches: [
-      main
-    ]
+    branches:
+      - main
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -21,10 +20,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node: [
-          22,
-          24
-        ]
+        node:
+          - 22
+          - 24
 
     steps:
       - uses: actions/checkout@v5
