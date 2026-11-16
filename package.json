@@ -1,7 +1,7 @@
 {
   "name": "olog-js",
   "version": "1.0.0",
-  "description": "olog-js - logger package",
+  "description": "Zero-dependency, type-safe logger core for every JavaScript runtime",
   "private": true,
   "scripts": {
     "build": "pnpm -r build",
@@ -10,7 +10,9 @@
   },
   "keywords": [
     "log",
-    "logger"
+    "logger",
+    "logging",
+    "typescript"
   ],
   "author": "ienginedv",
   "license": "MIT",
@@ -20,5 +22,15 @@
     "@types/node": "^26.6.6",
     "tsdown": "^0.23.7",
     "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iengindev/olog-js.git"
+  },
+  "homepage": "https://github.com/iengindev/olog-js#readme",
+  "bugs": "https://github.com/iengindev/olog-js/issues",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

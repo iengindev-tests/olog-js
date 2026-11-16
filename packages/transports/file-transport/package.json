@@ -1,7 +1,7 @@
 {
   "name": "@olog-js/file-transport",
   "version": "1.0.0",
-  "description": "olog-js - logger package",
+  "description": "Zero-dependency, type-safe logger core for every JavaScript runtime",
   "type": "module",
   "sideEffects": false,
   "engines": {
@@ -32,7 +32,9 @@
   },
   "keywords": [
     "log",
-    "logger"
+    "logger",
+    "logging",
+    "typescript"
   ],
   "author": "iengindev",
   "license": "MIT",
@@ -43,5 +45,16 @@
   "devDependencies": {
     "@olog-js/core": "workspace:*",
     "@types/node": "^26.6.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iengindev/olog-js.git",
+    "directory": "packages/transports/file-transport"
+  },
+  "homepage": "https://github.com/iengindev/olog-js#readme",
+  "bugs": "https://github.com/iengindev/olog-js/issues",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }
