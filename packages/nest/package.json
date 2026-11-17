@@ -1,6 +1,6 @@
 {
   "name": "@olog-js/nest",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "NestJS integration for olog-js: module, LoggerService adapter and HTTP request logging",
   "type": "module",
   "sideEffects": false,

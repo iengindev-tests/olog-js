@@ -1,6 +1,6 @@
 {
   "name": "@olog-js/console-transport",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Zero-dependency, type-safe logger core for every JavaScript runtime",
   "type": "module",
   "sideEffects": false,
